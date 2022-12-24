@@ -12,7 +12,7 @@ const handleClick = () =>{
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h2 className="font-bold text-2xl text-green-400 ml-6">
+        <h2 className="font-bold text-2xl text-pink-400 ml-6">
           Indhu Yelineni
         </h2>
       </div>
