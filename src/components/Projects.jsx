@@ -132,19 +132,18 @@ const Projects = () => {
           </p>
           <div className="flex p-8 justify-between text-gray-200 items-center cursor-pointer">
             <p
-              id="1"
-              className={` ${tab === "tab1" ? "border-pink-600" : ""}`}
+              className= "border-pink-600" 
               onClick={() => setTab("tab1")}
             >
               All
             </p>
-            <p id="2" onClick={() => setTab("tab2")}>
+            <p onClick={() => setTab("tab2")}>
               Web
             </p>
-            <p id="3" onClick={() => setTab("tab3")}>
+            <p onClick={() => setTab("tab3")}>
               Logo Designs
             </p>
-            <p id="4" onClick={() => setTab("tab4")}>
+            <p onClick={() => setTab("tab4")}>
               Figma Designs
             </p>
           </div>
