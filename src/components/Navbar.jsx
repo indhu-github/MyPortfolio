@@ -13,8 +13,10 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h2 className="font-bold text-2xl text-pink-400 ml-6">
-          Indhu Yelineni
+        <h2 className="font-bold text-2xl text-pink-400 ml-6 cursor-pointer">
+          <Link to="home" smooth={true} duration={500}>
+            Indhu Yelineni
+          </Link>
         </h2>
       </div>
 
@@ -83,7 +85,8 @@ function Navbar() {
           <li className="w-[160px] h-[50px] ml-[-100px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-100"
-              href=""
+              href="https://www.linkedin.com/in/indhuyelineni/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -91,23 +94,29 @@ function Navbar() {
           <li className="w-[160px] h-[50px] ml-[-100px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-100"
-              href=""
+              href="https://github.com/indhu-github"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[50px] ml-[-100px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-gray-100"
-              href=""
+              to="contact"
+              smooth={true}
+              duration={500}
             >
-              Email <HiOutlineMail size={30} />
-            </a>
+              Email
+            </Link>
+            <HiOutlineMail size={30} />
           </li>
           <li className="w-[160px] h-[50px] ml-[-100px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-100"
-              href=""
+              href={require("../documents/indhuyelineni.pdf")}
+              target="_blank"
+              download
             >
               Resume <HiDownload size={30} />
             </a>

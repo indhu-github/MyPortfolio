@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Project from "./Project";
-
 import { data } from "../data/data";
 
 const Projects = () => {
@@ -20,7 +19,7 @@ const Projects = () => {
             {/* <p className="border-pink-600" onClick={() => setTab("tab1")}>
               All
             </p> */}
-            <p onClick={() => setTab("tab2")}>Web</p>
+            <p className={tab==="tab2"?'activeTab':""} onClick={() => setTab("tab2")}>Web</p>
             <p onClick={() => setTab("tab3")}>Logo Designs</p>
             <p onClick={() => setTab("tab4")}>Figma Designs</p>
           </div>
