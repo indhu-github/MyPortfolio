@@ -5,7 +5,7 @@ const Project = ({ key, image, title, git, demo }) => {
     <div
       key={key}
       style={{backgroundImage: `url(${image})`}}
-      className="shadow-lg shadow-[#040c16] group container rounded-md 
+      className="shadow-lg shadow-[#040c16] group container rounded-2xl
               flex justify-center text-center items-center mx-auto content-div"
     >
       {/* Hover effect for images */}
