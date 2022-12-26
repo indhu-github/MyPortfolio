@@ -20,8 +20,8 @@ const Projects = () => {
               All
             </p> */}
             <p className={tab==="tab2"?'activeTab':""} onClick={() => setTab("tab2")}>Web</p>
-            <p onClick={() => setTab("tab3")}>Logo Designs</p>
-            <p onClick={() => setTab("tab4")}>Figma Designs</p>
+            <p className={tab==="tab3"?'activeTab':""} onClick={() => setTab("tab3")}>Logo Designs</p>
+            <p className={tab==="tab4"?'activeTab':""} onClick={() => setTab("tab4")}>Figma Designs</p>
           </div>
 
           {/* {tab === "tab1" && (

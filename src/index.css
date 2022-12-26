@@ -30,5 +30,7 @@
 }
 
 .activeTab{
-    text-decoration: 1px solid pink;
+    text-decoration: underline;
+    text-decoration-color: #dc1da3;
+    text-decoration-thickness: 3px;
 }
