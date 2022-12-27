@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.4893de33.css",
-    "main.js": "/MyPortfolio/static/js/main.fb6ee8cf.js",
+    "main.js": "/MyPortfolio/static/js/main.737cd9ef.js",
     "static/media/Amazon.png": "/MyPortfolio/static/media/Amazon.998ccb4a32a93877a760.png",
     "static/media/foodOrder.png": "/MyPortfolio/static/media/foodOrder.698335aaf2aa20dff9fd.png",
     "static/media/Poster.png": "/MyPortfolio/static/media/Poster.342b7f2eae12536809c6.png",
     "static/media/Spotify.png": "/MyPortfolio/static/media/Spotify.203d5453865b9535faba.png",
     "static/media/InstagramLogo.png": "/MyPortfolio/static/media/InstagramLogo.989b1556ed1e75493d5e.png",
     "static/media/userProfile.png": "/MyPortfolio/static/media/userProfile.2692022acb3b66ccf976.png",
-    "static/media/indhuyelineni.pdf": "/MyPortfolio/static/media/indhuyelineni.295977446af7840935dc.pdf",
     "static/media/MusicPlayer.png": "/MyPortfolio/static/media/MusicPlayer.8e71aacc518d29142d3e.png",
     "static/media/NetflixLogo.png": "/MyPortfolio/static/media/NetflixLogo.bd4ff6981d23d798aa25.png",
+    "static/media/indhuyelineni.pdf": "/MyPortfolio/static/media/indhuyelineni.4f44a6e15e2d513cf9f2.pdf",
     "static/media/Google.png": "/MyPortfolio/static/media/Google.aa22fe8d91c1d1d728fe.png",
     "static/media/sass.png": "/MyPortfolio/static/media/sass.aa16d6441e3e941f60c1.png",
     "static/media/AdviceGenerator.png": "/MyPortfolio/static/media/AdviceGenerator.1e057fad5d993a2dce00.png",
@@ -28,10 +28,10 @@
     "static/media/javascript.png": "/MyPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/MyPortfolio/index.html",
     "main.4893de33.css.map": "/MyPortfolio/static/css/main.4893de33.css.map",
-    "main.fb6ee8cf.js.map": "/MyPortfolio/static/js/main.fb6ee8cf.js.map"
+    "main.737cd9ef.js.map": "/MyPortfolio/static/js/main.737cd9ef.js.map"
   },
   "entrypoints": [
     "static/css/main.4893de33.css",
-    "static/js/main.fb6ee8cf.js"
+    "static/js/main.737cd9ef.js"
   ]
 }
