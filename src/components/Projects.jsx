@@ -6,7 +6,6 @@ const Projects = () => {
   const [tab, setTab] = useState("tab2");
   const project = data;
   const combo = [...project["web"],...project["FigmaDesigns"],...project["logoDesigns"]];
-  console.log(combo);
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
