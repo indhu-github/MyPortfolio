@@ -23,22 +23,22 @@ function Navbar() {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={800}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={800}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={800}>
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={800}>
             Contact
           </Link>
         </li>

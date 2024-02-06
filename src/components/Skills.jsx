@@ -11,6 +11,8 @@ import Sass from "../assets/sass.png";
 import Sql from '../assets/sql.png';
 import Mongodb from '../assets/mongodb.png';
 import Docker from '../assets/docker.png';
+import Asp from '../assets/asp.png';
+import AngularMaterial from '../assets/angularMaterial.png';
 
 const Skills = () => {
   return (
@@ -30,12 +32,12 @@ const Skills = () => {
             <p className="my-4">Javascript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="ReatJS icon" />
-            <p className="my-4">React JS</p>
+            <img className="w-20 mx-auto" src={Angular} alt="Angular icon" />
+            <p className="my-4">Angular</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Bootstrap} alt="Bootstrap icon" />
-            <p className="my-4">Bootstrap</p>
+            <img className="w-20 mx-auto" src={ReactImg} alt="ReatJS icon" />
+            <p className="my-4">React JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Typescript} alt="Typescript icon" />
@@ -50,12 +52,12 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Angular} alt="Angular icon" />
-            <p className="my-4">Angular</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Gitlogo} alt="GIT icon" />
             <p className="my-4">GIT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Bootstrap} alt="Bootstrap icon" />
+            <p className="my-4">Bootstrap</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Sass} alt="SASS icon" />
@@ -72,6 +74,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Docker} alt="Docker icon" />
             <p className="my-4">Docker</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-25 h-20 mx-auto" src={Asp} alt="ASP.NET icon" />
+            <p className="my-4">ASP.NET</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 h-20 mx-auto" src={AngularMaterial} alt="Bootstrap icon" />
+            <p className="my-4">Angular Material</p>
           </div>
         </div>
       </div>
